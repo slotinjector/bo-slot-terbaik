@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle bo-slot-terbaik",
+        "command": "bo-slot-terbaik:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "bo-slot-terbaik",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "bo-slot-terbaik:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
